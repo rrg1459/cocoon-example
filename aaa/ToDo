@@ -1,0 +1,3 @@
+$ rails g model Place title:string
+$ rails g model Address city:string street:string place:belongs_to
+$ rake db:migrate
